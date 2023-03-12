@@ -1,0 +1,48 @@
+@import url(https://fonts.bunny.net/css?family=heebo:500);
+
+@import url(../CSS/MainLeft.css);
+@import url(../CSS/MainRight.css);
+
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+.scroll {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+.colorSouligné {
+
+    border-bottom: 3px solid #559cc7 ;
+
+}
+
+.mainRight h3 {
+
+    color: rgb(39, 39, 39);
+
+    border-bottom: 2px solid rgb(39, 39, 39);
+
+}
+
+h3 , h2 {
+
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+
+    color: #559cc7;
+
+}
+
+Main {
+
+    display: flex;
+
+}
+
+/**********************

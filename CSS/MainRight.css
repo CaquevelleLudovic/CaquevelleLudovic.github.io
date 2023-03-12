@@ -1,0 +1,166 @@
+.mainRight {
+
+    padding: 2rem 4rem;
+
+}
+
+.headerTitle {
+
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+
+    border-bottom: 2px solid rgb(39, 39, 39);
+
+}
+
+.description{
+
+    display: flex;
+
+    padding: 2rem;
+
+}
+
+.img_quote {
+
+    width: 4rem;
+    height: 4rem;
+
+}
+
+.p_description {
+
+    padding: 0 2rem;
+
+    font-style: italic;
+    font-size: 1.2rem;
+
+}
+
+/******************** PARTIE FORMATION ********************/
+
+.mainFormation {
+
+    margin-left: 4rem;
+
+}
+
+.ulFormation {
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 1rem 0;
+
+}
+
+.liFormation {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 1.2rem;
+
+}
+
+/******************** PARTIE EXPERIENCE ********************/
+
+.mainExperience {
+
+    margin: 1rem 0;
+
+}
+
+.cdiSovab {
+    margin-top: 2rem;
+}
+
+.dispositionPartMétier {
+
+    display: flex ;
+
+}
+
+.leftPartMetier {
+
+    width: 30rem;
+
+}
+
+.date_left_modified {
+
+    font-size: 1.2rem;
+
+}
+
+.rightPartMetier {
+
+    border-left: 2px solid rgb(39, 39, 39);
+    padding: 0 5rem 2rem;
+    width: 100%;
+
+    font-size: 1.2rem;
+
+}
+
+h4.titreMetierExperience {
+    padding-bottom: 0.5rem;
+}
+
+em.entrepriseExperience {
+    color: #559cc7;
+}
+
+.nav_tache_modified {
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+}
+
+/******************** PARTIE RESPONSIVE DROITE ********************/
+
+@media ( max-width: 428px ) {
+
+    .colorSouligné {
+
+        border-bottom: 0px solid #559cc7;
+    
+    }
+
+    .mainRight {
+
+        padding: 1rem 1rem;
+
+    }
+
+    .headerTitle {
+
+        font-size: 1.4rem; 
+        background-color: #559CC7;
+
+    }  
+
+    .description {
+
+        flex-wrap: wrap;
+
+    }
+
+    .mainFormation {
+
+        margin-left: 0;
+
+    }
+
+    h3 {
+
+        color: rgb(39, 39, 39);
+        background: #559cc7;
+
+    }
+
+
+
+
+}

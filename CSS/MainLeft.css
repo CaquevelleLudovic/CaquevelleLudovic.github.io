@@ -1,0 +1,137 @@
+.mainLeft {
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 20rem;
+
+    background-color: #242323;
+    color: aliceblue;
+
+}
+
+.mainPhotoLeft {
+
+    width: 20rem;
+
+}
+
+.auteur{
+
+    position: absolute;
+    margin: 0 2rem;
+    padding: 1rem 5rem;
+    top: 16rem;
+    width: 15rem;
+    
+    background-color: #559cc791;
+
+}
+
+.titreAuteur {
+    color: rgb(23, 23, 23);
+}
+
+
+h3.titleContact {
+
+    margin-top: 6rem;
+
+}
+
+.h3Left {
+
+    padding-right: 2rem;
+    margin-left: 3rem;
+
+    border-top: 2px solid white;
+
+}
+/******************** PARTIE CONTACT ********************/
+
+
+.navContact {
+
+    padding: 1.5rem 0;
+
+}
+
+.ulContact {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.imgContactSize {
+
+    width: 3rem;
+    height: 3rem;
+
+}
+
+/******************** PARTIE LANGUAGE ********************/
+
+.ulLanguage {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.imgLanguageSize {
+
+    padding: 1rem;
+
+    width: 3rem;
+    height: 3rem;
+}
+
+/******************** PARTIE INTERET ********************/
+
+.mainInteret {
+
+    background-color: rgb(39, 39, 39);
+    height: 100%;
+
+}
+
+.navInteret {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60%;
+    padding: 1rem 0;
+
+
+}
+
+.ulInteret {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.liInteret {
+
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+
+}
+
+/******************** PARTIE RESPONSIVE ********************/
+
+@media ( max-width: 428px ) {
+
+    .mainLeft {
+        display: none;
+    }
+
+}
