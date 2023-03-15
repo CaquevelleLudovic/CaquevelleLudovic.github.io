@@ -55,4 +55,7 @@ Main {
     
     }
 
+    * {
+        list-style-type: disc;
+    }
 }
