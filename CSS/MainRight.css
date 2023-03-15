@@ -123,44 +123,75 @@ em.entrepriseExperience {
 @media ( max-width: 428px ) {
 
     .colorSouligné {
-
         border-bottom: 0px solid #559cc7;
     
     }
 
     .mainRight {
-
         padding: 1rem 1rem;
 
     }
 
     .headerTitle {
-
         font-size: 1.4rem; 
         background-color: #559CC7;
 
     }  
 
     .description {
-
         flex-wrap: wrap;
 
     }
 
     .mainFormation {
-
         margin-left: 0;
 
     }
 
     h3 {
-
         color: rgb(39, 39, 39);
         background: #559cc7;
 
     }
+    
+    .p_description {
+        font-size: 0.8rem;
 
+    }
 
+    .ulFormation {
+        flex-direction: column;
 
+    }
 
+    .liFormation {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .img_quote {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .rightPartMetier {
+        padding: 0 1rem 1rem;
+        font-size: 0.8rem;
+
+    }
+
+    .date_left_modified {
+        font-size: 0.8rem;
+
+    }
+
+    .leftPartMetier {
+        width: 22rem;
+        
+    }
+
+    .nav_tache_modified {
+    list-style-type: disc;
+
+    }
 }

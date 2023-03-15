@@ -45,4 +45,14 @@ Main {
 
 }
 
-/**********************
+/******************** PARTIE RESPONSIVE ********************/
+
+@media ( max-width: 428px ) {
+
+    .colorSouligné {
+
+        border-bottom: 0px solid #559cc7 ;
+    
+    }
+
+}
