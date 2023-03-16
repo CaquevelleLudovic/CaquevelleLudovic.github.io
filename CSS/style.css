@@ -58,4 +58,8 @@ Main {
     * {
         list-style-type: disc;
     }
+
+    .scroll {
+        height: auto;
+    }
 }
