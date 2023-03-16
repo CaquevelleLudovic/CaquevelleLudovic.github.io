@@ -46,7 +46,12 @@ Main {
 }
 
 /******************** PARTIE RESPONSIVE ********************/
+@media ( max-height: 969px) {
+    .scroll {
+        overflow-y: unset;
+    }
 
+}
 @media ( max-width: 480px ) {
 
     .colorSouligné {

@@ -119,11 +119,61 @@ em.entrepriseExperience {
     padding-left: 3rem;
 }
 
+.nav_tache_modified li {
+    list-style-type: disc;
+}
+
 .footerContact {
     display: none;
 }
 
 /******************** PARTIE RESPONSIVE DROITE ********************/
+
+
+@media ( max-width: 1291px ) {
+
+    .headerTitle {
+    font-size: 2rem;
+    }
+
+    .p_description {
+        font-size: 1rem;
+    }
+
+    .auteur {
+        display: none;
+    }
+    .liFormation {
+        font-size: 0.9rem;
+    }
+
+    .date_left_modified {
+        font-size: 0.9rem;
+    }
+    .rightPartMetier {
+        font-size: 0.9rem;
+    }
+}
+
+@media ( max-width: 1315px ) {
+    .description {
+        display: flex;
+        padding: 4rem 2rem;
+    }
+
+    .mainFormation {
+         margin-left: 0rem; 
+    }
+}
+
+@media ( max-width: 1600px ) {
+
+    .leftPartMetier {
+        padding: 0 5rem 0 0;
+        width: 54rem;
+    }
+
+}
 
 @media ( max-width: 480px ) {
 

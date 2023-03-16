@@ -125,11 +125,8 @@ h3.titleContact {
 }
 
 /******************** PARTIE RESPONSIVE ********************/
-
-@media ( max-width: 480px ) {
-
+@media ( max-width: 1113px ) {
     .mainLeft {
         display: none;
     }
-
 }
