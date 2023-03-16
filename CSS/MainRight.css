@@ -125,7 +125,7 @@ em.entrepriseExperience {
 
 /******************** PARTIE RESPONSIVE DROITE ********************/
 
-@media ( max-width: 428px ) {
+@media ( max-width: 480px ) {
 
     .colorSouligné {
         border-bottom: 0px solid #559cc7;

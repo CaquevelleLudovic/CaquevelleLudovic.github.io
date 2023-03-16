@@ -47,7 +47,7 @@ Main {
 
 /******************** PARTIE RESPONSIVE ********************/
 
-@media ( max-width: 428px ) {
+@media ( max-width: 480px ) {
 
     .colorSouligné {
 
